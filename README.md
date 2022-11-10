@@ -4,7 +4,6 @@ Code to compute bottom baryon spectra and decay widths. A fit is performed to ob
 
 ## Framework installation
 
-#No no eres
 To install the framework you need anaconda and git on a linux machine. In a terminal type:
 1. Clone the repository:
   ```
