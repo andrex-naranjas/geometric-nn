@@ -1,0 +1,47 @@
+name: gpu-env
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.8.11
+  - conda: 
+    - pytorch
+    - torchvision
+    - torchaudio
+    - cudatoolkit # =11.2
+    # - root # install if needed (huge package)
+  - pip
+  - pip:
+    - awkward==1.5.1
+    - jupyter==1.0.0
+    - jupyter-client==7.3.1
+    - jupyter-console==6.4.3
+    - jupyter-core==4.10.0
+    - jupyterlab-pygments==0.2.2
+    - jupyterlab-widgets==1.1.0
+    - matplotlib-inline==0.1.3
+    - notebook==6.4.11
+    - pandas
+    - pickleshare==0.7.5
+    - plotly==5.3.1
+    - scikit-learn
+    - scipy
+    - seaborn
+    - tqdm
+    - uproot
+    - numpy
+    - matplotlib
+
+
+# more packages needed for using other frameworks
+ # - pip:
+  #  - -r req.txt
+  #- keras==2.6.0
+  #- tensorflow==2.6.0
+
+# pytorch installation support
+# https://pytorch.org/get-started/locally/
+
+# conda root support
+# https://anaconda.org/conda-forge/root/

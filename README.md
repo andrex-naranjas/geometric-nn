@@ -1,6 +1,6 @@
 # Geometric deep learning implementation
 
-Code to compute bottom baryon spectra and decay widths. A fit is performed to obtain the model parameters. Errors are propagate via bootstrap Monte Carlo Gaussian sampling.
+Code to build and test neural networks bases on geometric deep learning
 
 ## Framework installation
 
