@@ -37,3 +37,4 @@ To run the notebooks on a linux machine, in a terminal type:
    ```
 
 3. Copy the the url in you favorite web browser
+Thank you!
